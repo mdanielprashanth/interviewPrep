@@ -1,0 +1,24 @@
+{
+  "name": "interviewprep",
+  "version": "1.0.0",
+  "description": "interview Preparations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mdanielprashanth/interviewPrep.git"
+  },
+  "keywords": [
+    "interview",
+    "docs",
+    "fullstack"
+  ],
+  "author": "daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdanielprashanth/interviewPrep/issues"
+  },
+  "homepage": "https://github.com/mdanielprashanth/interviewPrep#readme"
+}
