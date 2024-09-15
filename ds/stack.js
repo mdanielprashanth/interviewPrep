@@ -1,4 +1,4 @@
-// The Stack follows the principle of FILO - (FIRST IN LAST OUT )
+// The Stack follows the principle of LIFO - (LAST IN FIRST OUT )
 
 class Stack {
     constructor() { 
