@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "interview Preparations",
   "main": "index.js",
+  "type": "module", 
   "scripts": {
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +23,7 @@
     "url": "https://github.com/mdanielprashanth/interviewPrep/issues"
   },
   "homepage": "https://github.com/mdanielprashanth/interviewPrep#readme",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^3.1.4"
   }
 }
