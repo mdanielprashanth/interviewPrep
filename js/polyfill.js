@@ -23,13 +23,11 @@ fly();
  Step 1: - Create a own polyfill function 
 
  Step 2: - Declare our function to the Function.Prototype to make it avilable to all methods
- 
- Step 3: - 
 
 */
 
 Function.prototype.myBind = function(...args) {
-  let obj = this // this points to teh method on which bind is called
+  let obj = this // this points to the method on which bind is called
   let parms = args.slice(1)
   return function (...args2) {
       obj.apply(args[0], [...parms, args2] ) 
